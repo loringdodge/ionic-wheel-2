@@ -1,20 +1,20 @@
 {
-  "name": "ionic-wheel",
+  "name": "ionic-wheel-2",
   "version": "1.0.0",
-  "homepage": "https://github.com/loringdodge/ionic-wheel",
+  "homepage": "https://github.com/loringdodge/ionic-wheel-2",
   "authors": [
     "Loring Dodge <loringdodge@gmail.com>"
   ],
   "ignore": [
     "*",
-    "!ionic.wheel.css",
-    "!ionic.wheel.js",
+    "!ionic-wheel-2.css",
+    "!ionic-wheel-2.js",
     "!README.md"
   ],
   "description": "This Ionic directive generates a circular menu from a collection of elements that spin on drag.",
   "main": [
-    "ionic.wheel.css",
-    "ionic.wheel.js"
+    "ionic-wheel-2.css",
+    "ionic-wheel-2.js"
   ],
   "keywords": [
     "mobile",
