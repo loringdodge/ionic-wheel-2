@@ -1,0 +1,69 @@
+ion-wheel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#ionic-wheel {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+ion-wheel-item.active {
+  top: calc(50% - 25px) !important;
+  left: calc(50% - 25px) !important;
+  opacity: 0;
+  transition-property: opacity, left, top;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  z-index: 9;
+}
+
+ion-wheel-item {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #175D99;
+  box-shadow: 0px 2px 0px #000;
+  box-sizing: border-box;
+  border-radius: 50%;
+  opacity: 1;
+  transition-property: opacity, left, top;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+}
+
+#ionic-wheel #activate {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: #175D99;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+ion-wheel-item i, #ionic-wheel #activate i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+}
+
+.background-peach {
+  background-color: #69D4FF;
+}

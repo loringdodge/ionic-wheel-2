@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/ionic-wheel-2.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <script src="lib/collide/collide.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/ionic-wheel-2.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane ng-controller="MainCtrl" class="background-peach">
+      <ion-content scroll="false">
+
+        <ion-header-bar class="bar-default">
+          <h1 class="title">Ionic Wheel 2 + Velocity Decay</h1>
+        </ion-header-bar>
+
+        <ion-wheel>
+          <div id="activate" ng-click="showCircles()"><i ng-class="circlesHidden ? 'ion-arrow-expand' : 'ion-arrow-shrink'"></i></div>
+          <ion-wheel-item><i class="icon ion-home"></i></ion-wheel-item>
+          <ion-wheel-item><i class="icon ion-alert-circled"></i></ion-wheel-item>
+          <ion-wheel-item><i class="icon ion-heart-broken"></i></ion-wheel-item>
+          <ion-wheel-item><i class="icon ion-trash-a"></i></ion-wheel-item>
+          <ion-wheel-item><i class="icon ion-email"></i></ion-wheel-item>
+          <ion-wheel-item><i class="icon ion-at"></i></ion-wheel-item>
+          <ion-wheel-item><i class="icon ion-pin"></i></ion-wheel-item>
+          <ion-wheel-item><i class="icon ion-lock-combination"></i></ion-wheel-item>
+        </ion-wheel>
+
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

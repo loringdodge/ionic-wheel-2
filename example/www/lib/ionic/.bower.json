@@ -1,0 +1,45 @@
+{
+  "name": "ionic",
+  "codename": "yttrium-yeti",
+  "homepage": "https://github.com/driftyco/ionic",
+  "authors": [
+    "Max Lynch <max@drifty.com>",
+    "Adam Bradley <adam@drifty.com>",
+    "Ben Sperry <ben@drifty.com>"
+  ],
+  "description": "Advanced HTML5 hybrid mobile app development framework.",
+  "main": [
+    "css/ionic.css",
+    "fonts/*",
+    "js/ionic.js",
+    "js/ionic-angular.js"
+  ],
+  "keywords": [
+    "mobile",
+    "html5",
+    "ionic",
+    "cordova",
+    "phonegap",
+    "trigger",
+    "triggerio",
+    "angularjs",
+    "angular"
+  ],
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "angular": "1.4.3",
+    "angular-animate": "1.4.3",
+    "angular-sanitize": "1.4.3",
+    "angular-ui-router": "0.2.13"
+  },
+  "_release": "f495b4c475",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f495b4c4754547f96a0182098147917c525f99b6"
+  },
+  "_source": "git://github.com/driftyco/ionic-bower.git",
+  "_target": "master",
+  "_originalSource": "driftyco/ionic-bower"
+}

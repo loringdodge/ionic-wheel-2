@@ -1,0 +1,33 @@
+{
+  "name": "ionic-wheel",
+  "version": "1.0.0",
+  "homepage": "https://github.com/loringdodge/ionic-wheel",
+  "authors": [
+    "Loring Dodge <loringdodge@gmail.com>"
+  ],
+  "ignore": [
+    "*",
+    "!ionic.wheel.css",
+    "!ionic.wheel.js",
+    "!README.md"
+  ],
+  "description": "This Ionic directive generates a circular menu from a collection of elements that spin on drag.",
+  "main": [
+    "ionic.wheel.css",
+    "ionic.wheel.js"
+  ],
+  "keywords": [
+    "mobile",
+    "html5",
+    "ionic",
+    "cordova",
+    "phonegap",
+    "tinder",
+    "angularjs",
+    "angular"
+  ],
+  "dependencies": {
+    "collide": "1.0.0-beta.3",
+  },
+  "license": "MIT"
+}
