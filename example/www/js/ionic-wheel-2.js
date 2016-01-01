@@ -72,8 +72,6 @@
     },
 
     onDrag: function(e) {
-      e.gesture.srcEvent.preventDefault();
-
       var pageX = e.gesture.touches[0].pageX;
       var pageY = e.gesture.touches[0].pageY;
 
@@ -114,7 +112,6 @@
     },
 
     onTouch: function(e){
-      e.gesture.srcEvent.preventDefault();
       if(this._inProgress) this._animation.stop();
     },
 
