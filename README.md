@@ -15,7 +15,7 @@ Here's a quick [Blog Post]()
 
 And here's the original [Ionic Wheel](https://github.com/loringdodge/ionic-wheel)
 
-![Screenshot](screenshots/iphone.png)
+![Screenshot](screenshots/IonicWheel.gif)
 
 ## Usage
 
